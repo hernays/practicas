@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap");
+#chistes {
+  width: 60%;
+  min-height: 400px;
+  display: flex;
+  flex-flow: column;
+  margin: 20px auto;
+  border: 3px solid black;
+  border-radius: 50px;
+}
+#chistes h1 {
+  font-size: 30px;
+  font-family: "Supermercado One", cursive;
+  text-align: center;
+  letter-spacing: 3px;
+  border-bottom: 1px solib black;
+  border: 1px solid transparent;
+  border-bottom: 3px solid black;
+}
+#chistes button {
+  width: 40%;
+  align-self: center;
+  font-family: "Supermercado One", cursive;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #332525;
+  background-image: linear-gradient(30deg, aqua, green);
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  transition: all 300ms;
+}
+#chistes button:hover {
+  color: white;
+}
+#chistes li {
+  margin: 20px;
+  list-style: none;
+  text-decoration: none;
+}
+
+#usuarios {
+  width: 38%;
+  min-height: 400px;
+  display: flex;
+  flex-flow: column;
+  margin: 20px auto;
+  border: 3px solid black;
+  border-radius: 50px;
+}
+#usuarios h1 {
+  font-size: 30px;
+  font-family: "Supermercado One", cursive;
+  text-align: center;
+  letter-spacing: 3px;
+  border-bottom: 1px solib black;
+  border: 1px solid transparent;
+  border-bottom: 3px solid black;
+}
+#usuarios table {
+  width: 55%;
+  margin: 20px auto;
+  padding: 10px;
+  text-align: center;
+  background-image: linear-gradient(30deg, aqua, red);
+  border-radius: 5px;
+}
+
+.fotos {
+  width: 100%;
+  background-size: 100px;
+}
+
+/*# sourceMappingURL=styles.css.map */

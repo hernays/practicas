@@ -1,0 +1,89 @@
+//importaciones
+
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+
+//variables 
+$font-unica: 'Supermercado One', cursive;
+
+@mixin crearCaja($width) {
+    width: $width;
+    min-height: 400px;
+    display: flex;
+    flex-flow: column;
+    margin: 20px auto;
+    border: 3px solid black;
+    border-radius: 50px;
+}
+
+@mixin stylesEncabezados{
+    font-size: 30px;
+    font-family: $font-unica;
+    text-align: center;
+    letter-spacing: 3px;
+    border-bottom: 1px solib black;
+    border: 1px solid transparent;
+    border-bottom: 3px solid black; 
+}
+
+
+
+
+#chistes{
+    
+    @include crearCaja(60%);
+
+
+    h1{
+        @include stylesEncabezados();
+        
+    }
+
+    button{
+        width: 40%;
+        align-self: center;
+        font-family: $font-unica;
+        font-weight: bold;
+        letter-spacing: 1px;
+        color: rgb(51, 37, 37);
+        background-image: linear-gradient(30deg, aqua , green);
+        padding:10px;
+        margin: 10px;
+        cursor: pointer;
+        transition: all 300ms;
+        
+    }
+
+    button:hover{
+        color:white;
+    }
+
+    li{
+        margin: 20px;
+        list-style: none;
+        text-decoration: none;
+    }
+}
+
+
+#usuarios{
+    @include crearCaja(38%);
+
+    h1{
+        @include stylesEncabezados();
+    }
+
+    table{
+    width: 55%;
+    margin: 20px auto;
+    padding: 10px;
+    text-align:center;
+    background-image: linear-gradient(30deg , aqua , red);
+    border-radius: 5px;
+}
+    
+}
+
+.fotos{
+    width: 100%;
+    background-size: 100px;
+}
