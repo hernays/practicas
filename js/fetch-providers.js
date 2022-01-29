@@ -9,7 +9,7 @@ const getUsuario = async(id) => {
     return data;
 
 }
- getUsuario(3).then(console.log);
+ getUsuario(3);
 
 
 
@@ -31,7 +31,7 @@ const getUsuario = async(id) => {
  registrar({
      "name":"Hernasy",
      "job" : "gonzalez"
- }).then(console.log);
+ })
 
 
 
@@ -54,7 +54,7 @@ const getUsuario = async(id) => {
  updateUser(3 , {
      "name":"jose",
      "job":"alfato"
- }).then(console.log);
+ })
 
   
 
@@ -64,10 +64,8 @@ const getUsuario = async(id) => {
         method: 'DELETE'
     })
 
-    console.log(resp)
-
      return (resp.ok)? 'BORRADO' : 'no existe el usuario';
 
  }
 
- deleteUser(12000).then(console.log);
+ deleteUser(12000);

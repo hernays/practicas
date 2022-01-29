@@ -65,7 +65,7 @@ $font-unica: 'Supermercado One', cursive;
 }
 
 
-#usuarios{
+#usuarios, .div{
     @include crearCaja(38%);
 
     h1{
@@ -87,3 +87,4 @@ $font-unica: 'Supermercado One', cursive;
     width: 100%;
     background-size: 100px;
 }
+

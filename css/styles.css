@@ -39,7 +39,7 @@
   text-decoration: none;
 }
 
-#usuarios {
+#usuarios, .div {
   width: 38%;
   min-height: 400px;
   display: flex;
@@ -48,7 +48,7 @@
   border: 3px solid black;
   border-radius: 50px;
 }
-#usuarios h1 {
+#usuarios h1, .div h1 {
   font-size: 30px;
   font-family: "Supermercado One", cursive;
   text-align: center;
@@ -57,7 +57,7 @@
   border: 1px solid transparent;
   border-bottom: 3px solid black;
 }
-#usuarios table {
+#usuarios table, .div table {
   width: 55%;
   margin: 20px auto;
   padding: 10px;
