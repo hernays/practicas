@@ -8,3 +8,6 @@ variables en sass y muchas cosas mas esta seria mi version 1.0.0.
 en la siguiente actualización vendra la implementación en imagenes.
 
 ```
+
+
+# modificado
